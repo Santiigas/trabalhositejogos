@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="csslogin.css">
+    <link rel="stylesheet" href="media.query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagen">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça o login para acessar a
+                    sua conta CASA NERD e tenha acesso a todas as funcionalidades</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <Label for="ilogin">LOGIN:</Label>
+                        <input type="email" name="login" id="ilogin" 
+                        placeholder="Seu e-mail" autocomplete="email" 
+                        required maxlength="30"> 
+                    </div>
+                    <div class="campo">
+                        <Label for="isenha">Senha:</Label>
+                        <input type="password" name="senha" id="isenha" 
+                        placeholder="Sua senha" autocomplete="current-password" 
+                        required minlength="8" maxlength="18">
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="botao">Esqueci a senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

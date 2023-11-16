@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="csscadastro.css">
+    <link rel="stylesheet" href="media.query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagen">
+            </div>
+            <div id="formulario">
+                <h1>Cadastre-se</h1>
+                <p>Preencha os dados abaixo</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <Label for="inome">Nome:</Label>
+                        <input type="email" name="login" id="ilogin" 
+                        placeholder="Nome completo" required maxlength="30"> 
+                    </div>
+                    <div class="campo">
+                        <Label for="idatanascimento">Datanasciemento:</Label>
+                        <input type="email" name="Datanasciemento" id="Datanasciemento" 
+                        placeholder="Data nascimento" required maxlength="30"> 
+                    </div>
+                    <div class="campo">
+                        <Label for="iemail">email</Label>
+                        <input type="email" name="login" id="ilogin" 
+                        placeholder="E-mail" required maxlength="50"> 
+                    </div>
+                    <div class="campo">
+                        <Label for="isenha">Senha:</Label>
+                        <input type="password" name="senha" id="isenha" 
+                        placeholder="Defina uma senha" autocomplete="current-password" 
+                        required minlength="8" maxlength="18">
+                    </div>
+                    <div class="campo">
+                        <Label for="iendereço">Senha:</Label>
+                        <input type="password" name="senha" id="isenha" 
+                        placeholder="Endereço" autocomplete="current-password" 
+                        maxlength="70">
+                    </div>
+                    <div class="campo">
+                        <Label for="isenha">Senha:</Label>
+                        <input type="password" name="senha" id="isenha" 
+                        placeholder="CEP" autocomplete="current-password" 
+                        maxlength="70">
+                    </div>
+                    <input type="submit" value="Cadastre-se">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

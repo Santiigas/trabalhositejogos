@@ -2,15 +2,10 @@
 
 
 .t-produto {
-
-
   display: flex;
   text-align: center;
   align-items: conter;
-
-
 }
-
 
 .caixa-compra {
   display: flex;
@@ -34,7 +29,6 @@
 }
 
 .comprar {
-
   height: 40px;
   width: 150px;
   background-color: #67f967;
@@ -62,11 +56,7 @@
   color: #00751d;
   text-decoration: none;
   vertical-align: text-bottom;
-
 }
-
-
-
 
 .descrição {
   font-size: 19px;
@@ -74,6 +64,4 @@
   width: 600px;
   background-color: #d8efd7;
   border-radius: 20px;
-
-
 }

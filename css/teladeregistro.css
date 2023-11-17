@@ -43,7 +43,7 @@ section#login{
 
 section#login > div#imagen{
     display: block;
-    background: #3b3b4e url(imagens/6b4a46649e005a9252e9250848a91164.jpg) no-repeat;
+    background: #3b3b4e url(imagens/gta2.png) no-repeat;
     background-size: cover;
     height: 200px;
 }

@@ -1,0 +1,79 @@
+@charset "UFT-8";
+
+
+.t-produto {
+
+
+  display: flex;
+  text-align: center;
+  align-items: conter;
+
+
+}
+
+
+.caixa-compra {
+  display: flex;
+}
+
+.capa {
+  display: flex;
+  height: 500px;
+  width: 200px;
+}
+
+.compra {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 200px;
+  margin-left: 170px;
+
+}
+
+.comprar {
+
+  height: 40px;
+  width: 150px;
+  background-color: #67f967;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #00751d;
+  text-decoration: none;
+  vertical-align: text-bottom;
+  padding-top: 15px;
+
+}
+
+.carrinho {
+  height: 40px;
+  width: 150px;
+  background-color: #67f967;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #00751d;
+  text-decoration: none;
+  vertical-align: text-bottom;
+
+}
+
+
+
+
+.descrição {
+  font-size: 19px;
+  height: 500px;
+  width: 600px;
+  background-color: #d8efd7;
+  border-radius: 20px;
+
+
+}

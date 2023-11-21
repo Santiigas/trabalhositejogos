@@ -182,26 +182,26 @@ main {
 }
 
 #img1 {
-  background-image: url('imagens/slide1.png');
+  background-image: url('/imagens/slide1.png');
   background-size: cover;
   animation-delay: 5s;
   display: flex;
 }
 
 #img2 {
-  background-image: url('imagens/slide2.png');
+  background-image: url('/imagens/slide2.png');
   background-size: cover;
   animation-delay: 10s;
 }
 
 #img3 {
-  background-image: url('imagens/slide3.png');
+  background-image: url('/imagens/slide3.png');
   background-size: cover;
   animation-delay: 15s;
 }
 
 #img4 {
-  background-image: url('imagens/slide4.jpg');
+  background-image: url('/imagens/slide4.jpg');
   background-size: cover;
   animation-delay: 20s;
 

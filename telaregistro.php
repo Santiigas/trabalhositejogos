@@ -15,7 +15,7 @@
             <div id="formulario">
                 <h1>Cadastre-se</h1>
                 <p>Preencha os dados abaixo</p>
-                <form action="cadastro.php" method="post">
+                <form action="fazercompra.php" method="post">
                     <div class="campo">
                         <Label for="inome">Nome:</Label>
                         <input type="email" name="nome" id="nome" 
@@ -54,7 +54,8 @@
                         placeholder="CEP" autocomplete="current-password" 
                         maxlength="70">
                     </div>
-                    <input type="submit" value="Cadastre-se">
+                    
+                    <input type="submit" name="produto" value="<?php echo $_GET['produto'];?>">
                 </form>
             </div>
         </section>

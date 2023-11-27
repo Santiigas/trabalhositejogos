@@ -54,7 +54,6 @@
                         placeholder="CEP" autocomplete="current-password" 
                         maxlength="70">
                     </div>
-                    
                     <input type="submit" name="produto" value="<?php echo $_GET['produto'];?>">
                 </form>
             </div>
